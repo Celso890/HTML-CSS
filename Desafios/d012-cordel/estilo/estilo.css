@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freehand&family=Passion+One:wght@400;700;900&family=Playwrite+AR:wght@100..400&family=Sriracha&display=swap');
 
 
-:root{
+:root{  /* Configuração das variáveis */
 
     --fonte-1:'Passion One', cursive;
     --fonte-2:'Sriracha', cursive;
@@ -81,7 +81,7 @@ section.imagem{
 }
 
 section.imagem > p{
-    display: inline-block;
+    display: inline-block; /* Se adapta ao contéudo */
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
