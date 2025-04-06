@@ -4,6 +4,6 @@
 
 body{
     background: url(../imagens/cev-portrait.jpg);
-    background-position: 50% 72%;
+    background-position-y: center;
 }
 
