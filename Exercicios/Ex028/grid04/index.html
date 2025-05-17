@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout na prática</title>
+    <style>
+        div.container{        
+            border: 3px solid blue;
+            height: 400px;
+            display: grid;
+            grid-template: repeat(3,100px)/1fr 2fr 1fr ; /*Pode substituir as repetições pela função repeat*/
+
+           gap: 5px;
+        }
+
+        div.item {
+            border: 3px solid red;
+            padding: 5px;
+        }
+
+        div#ia{
+            background: url(pngtree-brazil-flag-watercolor-paint-brush-transparent-background-png-image_6097357.png) no-repeat center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">   <!--div.container já cria-->
+        <div class="item" id="ia">A</div>  <!--div.item*7 cria as 7 divs de uma vez-->
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+    </div>
+</body>
+</html>
